@@ -12,30 +12,29 @@ This project aims to implement a RAG (Rating and Review) system using [insert re
 - Integration with [insert relevant third-party APIs or services here]
 
 ## Installation
-1. Clone the repository: `git clone [insert repository URL here]`
-2. Install the required dependencies: [insert installation instructions here]
-3. Set up the necessary configurations: [insert configuration instructions here]
+1. Clone the repository: 
+```bash
+ git clone https://github.com/sgpuzzle19/RAG
+```
+2. Install the required dependencies: cohere_api_key
 
-## Usage
-1. Start the application: [insert start-up instructions here]
-2. Access the RAG system through the web interface or API endpoints.
-3. Users can register, log in, and rate/review products.
-4. Admins can manage ratings and reviews from the admin dashboard.
+
 
 ## Technologies Used
 - [Insert relevant technologies or frameworks here]
 
 ## Dependencies
--  create a Cohere API key[https://dashboard.cohere.com/]
--  create a OpenAI API key[insert link here]
+
+- Create a Cohere API key [\[Cohere Dashboard\]](https://dashboard.cohere.com/)
+- Save the API key in a .env file
+
 
 ## Installation
-#conda
-<<<<<<<<<<<<<<  ✨ Codeium Command ⭐ >>>>>>>>>>>>>>>>
+
 
 To create a conda environment with the dependencies specified in `env.yaml`, run the following command:
 
-<<<<<<<  7dd1ecae-5d56-49d3-8961-e04e517833a5  >>>>>>>  
+
 ```bash
 conda env create -f env.yaml
 ```
@@ -47,12 +46,16 @@ To create a pip environment with the dependencies specified in `requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-
 ## Usage
-
+1. Start the application: 
 ```bash
 streamlit run main.py
 ```
+2. Access the RAG system through the web interface or API endpoints.
+3. Users can register, log in, and rate/review products.
+4. Admins can manage ratings and reviews from the admin dashboard.
+
+
 or run jupyter notebook
 
 ```bash
